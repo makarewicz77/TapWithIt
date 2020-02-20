@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical"
+    tools:context=".View.ScoreBoardActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/big_padding"
+        android:fontFamily="@font/aldrich"
+        android:text="@string/score_board_header"
+
+        android:textColor="@color/textViewColor"
+        android:textSize="34sp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/score_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/clear_scoreboard"
+        style="@style/buttonStandardStyle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="@dimen/big_padding"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_sc" />
+
+</LinearLayout>

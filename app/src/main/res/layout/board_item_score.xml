@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="@dimen/big_padding"
+    android:layout_marginTop="@dimen/big_padding"
+    android:layout_marginRight="@dimen/big_padding"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/rounded_corner" >
+
+    <TextView
+        android:id="@+id/score_board_username"
+        android:layout_width="0dp"
+        android:layout_weight=".40"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/small_padding"
+        android:textColor="@color/textViewColor"
+        android:textSize="20sp"
+        android:text="@string/score_board_username" />
+
+    <TextView
+        android:id="@+id/score_board_mode"
+        android:layout_width="0dp"
+        android:layout_weight=".40"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/small_padding"
+        android:textColor="@color/textViewColor"
+        android:textSize="20sp"
+        android:text="@string/mode" />
+
+    <TextView
+        android:id="@+id/score_board_value"
+        android:layout_width="0dp"
+        android:layout_weight=".20"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/small_padding"
+        android:textColor="@color/textViewColor"
+        android:textSize="20sp"/>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="loginEditTextStyle">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/textViewColor</item>
+        <item name="android:inputType">textAutoComplete</item>
+        <item name="android:padding">@dimen/small_padding</item>
+        <item name="android:layout_marginBottom">@dimen/big_padding</item>
+        <item name="android:layout_marginTop">@dimen/big_padding</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="noAnim" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="buttonStandardStyle">
+        <item name="android:textColor">@color/textViewColor</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:background">@drawable/buttonshape</item>
+    </style>
+
+    <style name="buttonYTStyle">
+        <item name="android:textColor">@color/textViewColor</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:background">@drawable/ytbuttonshape</item>
+    </style>
+
+    <style name="MyTheme" parent="Base.Theme.AppCompat.Light">
+        <item name="alertDialogTheme">@style/dialog</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="dialog" parent="Base.Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textViewColor</item>
+    </style>
+
+</resources>

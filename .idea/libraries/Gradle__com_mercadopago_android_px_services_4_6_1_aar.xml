@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mercadopago.android.px:services:4.6.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/043b25bf761e82e4b5d5d594dfcef732/services-4.6.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/043b25bf761e82e4b5d5d594dfcef732/services-4.6.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/043b25bf761e82e4b5d5d594dfcef732/services-4.6.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mercadopago.android.px/services/4.6.1/26164f5f594b0f94e30a01c82837ae6c3a96ef65/services-4.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mercadopago.android.px/services/4.6.1/720a77caf37fb79f9716046d837ed9e463f31858/services-4.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,61 @@
+
+Lsquid:S1125‡"(Remove the literal "true" boolean value.(ØèÖãùÿÿÿÿ8ÊªïÊş-
+Esquid:S1659("'Declare "lifesText" on a separate line.(ıÑ¯´8…¡º™ş-
+Psquid:S1659("2Declare "pregameTimerTextView" on a separate line.(ıÑ¯´8ïÕÉş-
+~squid:S00115%"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°óŸ¢ıÿÿÿÿ8…¡º™ş-
+Gsquid:S1125Š"(Remove the literal "true" boolean value.(ÅÔù­8ÊªïÊş-
+Osquid:S1659*",Declare "gameOverTimer2" on a separate line.(†Ğ¿³ùÿÿÿÿ8…¡º™ş-
+Isquid:S1659/"&Declare "isInGame" on a separate line.(åâ—•øÿÿÿÿ8çúëÉş-
+vsquid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ€îìüÿÿÿÿ8ÊªïÊş-
+Fsquid:S1659("(Declare "goodBadTap" on a separate line.(ıÑ¯´8…¡º™ş-
+usquid:S3776:"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(¨Œşÿÿÿÿ8×…ş-
+Gsquid:S1125Ş"(Remove the literal "true" boolean value.(Óı¥ú8ÊªïÊş-
+\squid:S1197Ñ"8Move the array designator from the variable to the type.(²úÙÿÿÿÿÿ8ÊªïÊş-
+Gsquid:S1125é"(Remove the literal "true" boolean value.(Óı¥ú8ÊªïÊş-
+\squid:S1197Ñ"8Move the array designator from the variable to the type.(²úÙÿÿÿÿÿ8ÊªïÊş-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôøœ¥
+Ksquid:S16593"(Declare "simpleMode" on a separate line.( ñ°³ûÿÿÿÿ8›Î›¸ş-
+Msquid:S1905Ã")Remove this unnecessary cast to "double".(…¿Îºÿÿÿÿÿ8ÊªïÊş-
+Fsquid:S1125o"(Remove the literal "true" boolean value.(Óı¥ú8…×ƒş-
+Hsquid:S1659,"%Declare "delay1s" on a separate line.(¾¶­ûÿÿÿÿÿ8…¡º™ş-
+hsquid:HiddenFieldCheck‡"9Rename "score" which hides the field declared at line 40.(£İ­ûÿÿÿÿ8ÊªïÊş-
+Fsquid:S1659("(Declare "finalscore" on a separate line.(ıÑ¯´8…¡º™ş-
+¥squid:S1186Ë"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(«—Ó“üÿÿÿÿ8ÊªïÊş-
+Gsquid:S1125€"(Remove the literal "true" boolean value.(Óı¥ú8ÊªïÊş-
+Csquid:S1659+"%Declare "exitBtn" on a separate line.(úÖåË8îÉ••÷-
+[squid:S2589©"7Remove this expression which always evaluates to "true"(ıâ´‰øÿÿÿÿ8ÊªïÊş-
+osquid:UselessImportCheck"?Remove this unused import 'android.graphics.drawable.Drawable'.(Á‰º„ùÿÿÿÿ8ÊåıÉş-
+Fsquid:S1659/"#Declare "blink" on a separate line.(åâ—•øÿÿÿÿ8…Ã–Œ÷-
+Msquid:S16590"*Declare "blinkCounter" on a separate line.(şæúçûÿÿÿÿ8…¡º™ş-
+Ksquid:S16593"(Declare "sensorMode" on a separate line.( ñ°³ûÿÿÿÿ8›Î›¸ş-
+vsquid:S3776Î"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¡¯âşÿÿÿÿ8ÊªïÊş-
+vsquid:S3776¢"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(Â»á–şÿÿÿÿ8ÊªïÊş-
+Nsquid:S1659*"+Declare "gameOverTimer" on a separate line.(†Ğ¿³ùÿÿÿÿ8ÜÁí”÷-
+esquid:S1192<"GDefine a constant instead of duplicating this literal "bundle" 3 times.(Ş¦ı8…¡º™ş-
+Isquid:S1659,"&Declare "timeLeft" on a separate line.(¾¶­ûÿÿÿÿÿ8…¡º™ş-
+jsquid:UselessImportCheck":Remove this unused import 'android.widget.RelativeLayout'.(ü¯ğõşÿÿÿÿ8İıÒÉş-
+Lsquid:S2140X")Use "java.util.Random.nextInt()" instead.(Æ¸¥™şÿÿÿÿ8…¡º™ş-
+Gsquid:S1125±"(Remove the literal "true" boolean value.(Óı¥ú8ÊªïÊş-
+Gsquid:S1125§"(Remove the literal "true" boolean value.(ÅÔù­8ÊªïÊş-
+Nsquid:S1659,"+Declare "gameOverDelay" on a separate line.(¾¶­ûÿÿÿÿÿ8…¡º™ş-
+ squid:S1186û"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ĞŠß±8ÊªïÊş-
+vsquid:ModifiersOrderCheck%"EReorder the modifiers to comply with the Java Language Specification.(°óŸ¢ıÿÿÿÿ8…¡º™ş-
+vsquid:S3776İ"RRefactor this method to reduce its Cognitive Complexity from 61 to the 15 allowed.(²‘ŞÅıÿÿÿÿ8ÊªïÊş-
+qsquid:S3776¾"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(Ğ¹Íº8ÊªïÊş-
+Gsquid:S1125¬"(Remove the literal "true" boolean value.(Óı¥ú8ÊªïÊş-
+Rsquid:S16597"/Declare "sensorOrientation" on a separate line.(ğ½ëÁùÿÿÿÿ8…¡º™ş-
+Gsquid:S1125Œ"(Remove the literal "true" boolean value.(Óı¥ú8ÊªïÊş-
+Fsquid:S16590"#Declare "lifes" on a separate line.(şæúçûÿÿÿÿ8…¡º™ş-
+Msquid:S1659*"*Declare "pregameTimer" on a separate line.(†Ğ¿³ùÿÿÿÿ8³È£Éş-
+Gsquid:S1125Ğ"(Remove the literal "true" boolean value.(Óı¥ú8ÊªïÊş-
+Gsquid:S1125¼"(Remove the literal "true" boolean value.(Óı¥ú8ÊªïÊş-
+Lsquid:S1125ƒ"(Remove the literal "true" boolean value.(ÊÏ“ûÿÿÿÿ8ÊªïÊş-
+Asquid:S1659("#Declare "score" on a separate line.(ıÑ¯´8…¡º™ş-
+ysquid:S1450."[Remove the "scoreHandler" field and declare it as a local variable in the relevant methods.(ÔëÏ8…¡º™ş-
+Ksquid:S1659/"(Declare "modeSensor" on a separate line.(åâ—•øÿÿÿÿ8½ íœş-
+jsquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(ñüï¶8ÊªïÊş-
+Esquid:S16593""Declare "mode" on a separate line.( ñ°³ûÿÿÿÿ8‘ÛÂş-
+Gsquid:S1125È"(Remove the literal "true" boolean value.(Óı¥ú8ÊªïÊş-
+Lsquid:S16590")Declare "starPressed" on a separate line.(şæúçûÿÿÿÿ8…¡º™ş-
+Jsquid:S1659Ñ"&Declare "lightVal" on a separate line.(²úÙÿÿÿÿÿ8ÊªïÊş-
+tsquid:S1192C"VDefine a constant instead of duplicating this literal "UsernameForScoreboard" 3 times.(’Üˆ8…¡º™ş-

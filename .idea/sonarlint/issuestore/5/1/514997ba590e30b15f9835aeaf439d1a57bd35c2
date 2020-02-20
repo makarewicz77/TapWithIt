@@ -1,0 +1,6 @@
+
+Esquid:S1604-"(Make this anonymous inner class a lambda(§ÎÜd8Ü¥³ìý-
+¤squid:S1186/"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ƒãÔìþÿÿÿÿ8Ü¥³ìý-
+usquid:UselessImportCheck"JRemove this unused import 'com.google.android.material.snackbar.Snackbar'.(ë„ƒŠ8þ°Øïý-
+Ysquid:S2696&"6Make the enclosing method "static" or remove this set.(¡¯µ¿ýÿÿÿÿ8ñîÌìý-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôøœ¥

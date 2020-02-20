@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    android:id="@+id/clicker_game_relative_layout"
+    tools:context=".View.ClickerGameActivity">
+
+    <TextView
+        android:id="@+id/final_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textViewColor"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:text="FinalScore" />
+
+    <TextView
+        android:id="@+id/pregameTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/textViewColor"
+        android:layout_centerInParent="true"
+        android:textSize="75sp"
+        tools:text="3s" />
+
+    <LinearLayout
+        android:id="@+id/clicker_game_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/clicker_in_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/clicker_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/big_padding"
+                    android:text="@string/clicker_score"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="40sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <TextView
+                    android:id="@+id/lifes_text_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textColor="@color/textViewColor"
+                    android:textSize="40sp"
+                    android:layout_marginRight="@dimen/big_padding"
+                    android:layout_marginTop="@dimen/big_padding"
+                    app:layout_constraintRight_toLeftOf="@id/heart_icon"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/heart_icon"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_margin="@dimen/big_padding"
+                    android:src="@drawable/heart3"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/clicker_timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginVertical="@dimen/big_padding"
+                android:textAlignment="center"
+                android:textColor="@color/textViewColor"
+                android:textSize="50sp"
+                tools:text="5s" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/star1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="@dimen/big_padding"
+                    tools:srcCompat="@drawable/ic_star_not_pressed" />
+
+                <ImageView
+                    android:id="@+id/star2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="@dimen/big_padding"
+                    tools:srcCompat="@drawable/ic_star_not_pressed" />
+
+                <ImageView
+                    android:id="@+id/star3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="@dimen/big_padding"
+                    tools:srcCompat="@drawable/ic_star_not_pressed" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/star4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="@dimen/big_padding"
+                    tools:srcCompat="@drawable/ic_star_not_pressed" />
+
+                <ImageView
+                    android:id="@+id/star5"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="@dimen/big_padding"
+                    tools:srcCompat="@drawable/ic_star_not_pressed" />
+
+                <ImageView
+                    android:id="@+id/star6"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="@dimen/big_padding"
+                    tools:srcCompat="@drawable/ic_star_not_pressed" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/star7"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="@dimen/big_padding"
+                    tools:srcCompat="@drawable/ic_star_not_pressed" />
+
+                <ImageView
+                    android:id="@+id/star8"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="@dimen/big_padding"
+                    tools:srcCompat="@drawable/ic_star_not_pressed" />
+
+                <ImageView
+                    android:id="@+id/star9"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="@dimen/big_padding"
+                    tools:srcCompat="@drawable/ic_star_not_pressed" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/good_bad_tap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/big_padding"
+                android:textAlignment="center"
+                android:textColor="@color/textViewColor"
+                android:textSize="50sp"
+                android:layout_gravity="center_horizontal"
+                tools:text="Bravo!" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/play_again_clicker_button"
+                style="@style/buttonStandardStyle"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/big_padding"
+                android:text="@string/clicker_play_again_btn" />
+
+            <Button
+                android:id="@+id/exit_clicker_button"
+                style="@style/buttonStandardStyle"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/big_padding"
+                android:text="@string/clicker_exit_btn" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

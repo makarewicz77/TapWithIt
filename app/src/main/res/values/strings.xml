@@ -1,0 +1,56 @@
+<resources>
+    <string name="username_text_view">Username:</string>
+    <string name="password_text_view">Password:</string>
+    <string name="basic_info">Welcome summoner ! See a button down there? Click it, u wont regret it. Hope you enjoy the game :)</string>
+    <string name="game_menu_clicker">Simple clicker</string>
+    <string name="game_menu_sensor_clicker" translatable="false">Sensor clicker</string>
+    <string name="game_menu_scoreboard">Scoreboard</string>
+    <string name="game_menu_logout">Logout</string>
+    <string name="pregame_clicker">Just tap those full stars until time ends up, that\'s all you have to do here. Get ready and have fun !</string>
+    <string name="pregame_sensor_clicker">So, if full star appears in the corner, you have to tap it. If any arrow becomes fully filled, you have to rotate the device in the direction arrow is. And ... if lightbulb becomes filled with color, you have to cover light sensor with something ;) (turn off the light). Good luck !</string>
+    <string name="clicker_score">Score:\t\t</string>
+    <string name="clicker_play_again_btn">Play again</string>
+    <string name="score_board_username">Username</string>
+    <string name="score_board_header">SCOREBOARD</string>
+    <string name="rep_password_text_view">Repeat password:</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="YouTube" translatable="false">YouTube</string>
+    <string name="start" translatable="false">Start</string>
+    <string name="create_acc">Create account</string>
+
+    <string name="out_of_time">OUT OF TIME :[</string>
+    <string name="you_missed">YOU MISSED :[</string>
+    <string name="bravo">BRAVO! :D</string>
+    <string name="game_over">GAME OVER</string>
+    <string name="final_score">Final score:\t\t</string>
+    <string name="start_journey">Start journey</string>
+
+    <string name="delete_sc">Clear scoreboard</string>
+
+    <string name="succ_log_in">User logged in successfully!</string>
+    <string name="fail_log_in">User didn\'t logged in.</string>
+    <string name="succ_create_acc">Account created successfully!</string>
+    <string name="succ_log_out">User logged out successfully!</string>
+    <string name="wrong_usr_or_pass">Wrong username or password!</string>
+    <string name="wrong_rep_pass">Repeated password is wrong!</string>
+    <string name="wrong_pass_input">Password should contain at least 4 characters!</string>
+    <string name="wrong_usr_input">Account with that username already exists.</string>
+    <string name="clicker_exit_btn">Exit</string>
+    <string name="app_name">TapWithIt</string>
+
+    <string name="google_sign_in_info">If you are wondering how i did Google Sign In function, see video by pressing button below ;)</string>
+
+    <string name="succ_score_del">Score element deleted successfully!</string>
+    <string name="succ_all_score_del">Scoreboard cleared successfully!</string>
+
+    <string name="alert_title_sb_clear">Delete all scores</string>
+    <string name="alert_message_sb_clear">Are you sure you want to clear scoreboard ? You can also delete only one score by click-and-hold it.</string>
+    <string name="alert_confirm_sb_clear">Yes, let\'s do it!</string>
+    <string name="alert_cancel_sb_clear">No, go back!</string>
+    <string name="alert_title_s_clear">Delete score</string>
+    <string name="alert_message_s_clear">Are you sure you want to delete this score ?</string>
+
+    <string name="mode">Mode</string>
+
+</resources>

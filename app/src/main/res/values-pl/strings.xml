@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="username_text_view">Nazwa użytkownika:</string>
+    <string name="password_text_view">Hasło:</string>
+    <string name="basic_info">Witaj przywoływaczu ! Widzisz ten przycisk poniżej? Kliknij go, a nie pożałujesz. Mam nadzieję, że spodoba Ci się moja gra :)</string>
+    <string name="game_menu_scoreboard">Tablica wyników</string>
+    <string name="game_menu_logout">Wyloguj się</string>
+    <string name="pregame_clicker">Po prostu klikaj w wypełnione kolorem gwiazdki zanim skończy się czas, to wszystko co masz tutaj do roboty. Przygotuj się i miłej zabawy !</string>
+    <string name="clicker_score">Punkty:\t\t</string>
+    <string name="clicker_play_again_btn">Zagraj ponownie</string>
+    <string name="score_board_username">Nazwa użytkownika</string>
+    <string name="score_board_header">TABLICA WYNIKÓW</string>
+    <string name="rep_password_text_view">Powtórz hasło:</string>
+
+    <string name="login">Logowanie</string>
+    <string name="create_acc">Stwórz konto</string>
+
+    <string name="out_of_time">KONIEC CZASU :[</string>
+    <string name="you_missed">NIE TRAFIŁEŚ :[</string>
+    <string name="bravo">BRAWO! :D</string>
+    <string name="game_over">KONIEC GRY</string>
+    <string name="final_score">Końcowy wynik:\t\t</string>
+    <string name="start_journey">Rozpocznij podróż</string>
+
+    <string name="delete_sc">Wyczyść tablicę wyników</string>
+
+    <string name="succ_log_in">Użytkownik zalogowany pomyślnie!</string>
+    <string name="fail_log_in">Użytkownik się nie zalogował.</string>
+    <string name="succ_create_acc">Konto utworzono pomyślnie!</string>
+    <string name="succ_log_out">Użytkownik wylogowany pomyślnie!</string>
+    <string name="wrong_usr_or_pass">Błędna nazwa użytkownika lub hasło!</string>
+    <string name="wrong_rep_pass">Powtórzone hasło jest nieprawidłowe!</string>
+    <string name="wrong_pass_input">Hasło powinno zawierać co najmniej 4 znaki!</string>
+    <string name="wrong_usr_input">Konto z tą nazwą użytkownika już istnieje.</string>
+    <string name="clicker_exit_btn">Wyjście</string>
+    <string name="app_name">TapWithIt</string>
+    <string name="register">Rejestracja</string>
+    <string name="game_menu_clicker">Prosty clicker</string>
+    <string name="pregame_sensor_clicker">"A więc, jeżeli pełna gwiazdka pojawi się w którymś rogu, kliknij ją. Jeżeli któraś strzałka wypełni się kolorem, musisz poruszyć urządzeniem w jej stronę. Oraz ... jeżeli żaróweczka się w pełni podświetli, musisz zakryć czymś sensor światła ;) (wyłącz światło). Powodzenia "</string>
+    <string name="google_sign_in_info">Jeśli zastanawia Cię, jak zrobiłem funkcję logowania za pomocą konta Google, obejrzyj wideo wciskając przycisk poniżej ;)</string>
+    <string name="succ_score_del">Wynik usunięty pomyślnie!</string>
+    <string name="succ_all_score_del">Tablica wyników wyczyszczona pomyślnie!</string>
+    <string name="alert_cancel_sb_clear">Nie, wróć!</string>
+    <string name="alert_confirm_sb_clear">Tak, zróbmy to!</string>
+    <string name="alert_message_sb_clear">Czy na pewno chcesz wyczyścić tablicę wyników ? Możesz również usunąć tylko jeden wynik poprzez kliknięcie i przytrzymanie na nim.</string>
+    <string name="alert_title_sb_clear">Usuń wszystkie punkty</string>
+    <string name="alert_message_s_clear">Czy na pewno chcesz usunąć ten wynik ?</string>
+    <string name="alert_title_s_clear">Usuń wynik</string>
+    <string name="mode">Tryb</string>
+</resources>

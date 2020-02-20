@@ -1,0 +1,8 @@
+
+Osquid:S1602"",Remove useless curly braces around statement(Î€äŒşÿÿÿÿ8´§ê¯ú-
+„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(Ÿğé±ùÿÿÿÿ8Ò‚Æéı-
+Osquid:S1602(",Remove useless curly braces around statement(Î€äŒşÿÿÿÿ8´§ê¯ú-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ôàú¥
+Osquid:S1602",Remove useless curly braces around statement(Î€äŒşÿÿÿÿ8´§ê¯ú-
+„squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(Ô—µÎûÿÿÿÿ8Ò‚Æéı-
+„squid:UselessImportCheck	"TRemove this unnecessary import: same package classes are always implicitly imported.(¥—ìıÿÿÿÿ8Ò‚Æéı-
